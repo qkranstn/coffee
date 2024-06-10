@@ -1,0 +1,29 @@
+/* top & bottom */
+.top{
+    height: 200px;
+    font-size: 20px;
+}
+
+.bottom{
+    height: 200px;
+    font-size: 20px;
+}
+
+/* */
+.banner{
+    height: 200px;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.text1{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    
+}

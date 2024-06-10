@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+
+    <!-- <link rel="stylesheet" href="./resouces/css/mystyle.css"> -->
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            border: 0px solid black;
+        }
+
+        .navigation{
+            display: flex;
+            justify-content: space-between;
+            
+            padding-left: 80px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .manu{
+            width: 700px;
+            justify-content: space-evenly;
+            padding-top: 50px; 
+            padding-bottom: 50px;           
+        }
+
+        .manu > a {
+            text-decoration: none;
+            color: black;
+
+            font-size: 20px;
+            justify-content: center;
+
+            padding-left: 10px;
+            padding-right: 10px;
+            
+        }
+
+        .login{
+            padding-top: 50px;
+            padding-right: 100px;
+          
+        }
+
+
+        .login1{
+            display: flex;
+            width: 70px;
+            height: 35px;
+
+            justify-content: center;
+            align-items: center;
+
+            /* 둥글게 만들기 */
+            border-radius: 5px;
+            /* 테두리 크기 색 */
+            border: 1px solid green
+        }
+
+
+        .login1 > a{
+            /* 텍스트 밑줄 없애기 */
+            text-decoration: none;
+            color: green;
+
+            font-size: 15px;
+        }
+
+        /* top & bottom */
+        .top{
+            height: 200px;
+            font-size: 20px;
+        }
+
+        .bottom{
+            height: 200px;
+            font-size: 20px;
+        }
+
+        /* */
+        .banner{
+            height: 200px;
+            overflow: hidden;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            position: relative;
+        }
+
+        .text1{
+            position: absolute;
+            color: white;
+            font-size: 50px;
+            
+        }
+ 
+        /* */
+        .message{
+            padding-top: 150px;
+            padding-bottom: 50px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            font-size: 20px;
+        }
+        
+        /* */
+        .card {
+            width: 300px;
+            height: 400px;
+
+            display: flex;
+            flex-direction: column;
+
+            position: relative;
+
+        }   
+
+        
+        .card > div:nth-child(1) {
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+
+            /* overflow: hidden; */
+        }
+
+        .card > div:nth-child(2) {
+            height: 10%;
+            display: flex;
+            flex-direction: column;
+
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .card > div:nth-child(3) {
+            height: 20%;
+            padding-left: 10px;
+        }
+
+        .card-container {
+            border: 0px solid green;
+
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            padding-top: 100px;
+            padding-bottom: 100px;
+            
+        }
+
+        .card > div {
+            border: 0px solid red;
+        }
+
+        /* footer */
+        .footer > div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
+       .footer > div > div:nth-child(1) {
+        display: flex;
+        align-items: center;
+        }
+
+        .logo1 > a:nth-child(1){
+           display: flex;
+        }
+        
+        .asd1 {
+            width: 400px;
+            padding-left: 200px;
+        }
+
+        .asd2 {
+            display: flex;
+            flex-direction: column;
+        }
+        .asd1 > h3{
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+        .asd2 > h3{
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="top">
+            <div class ="navigation">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img width="180px" src="https://coffeeinterview.com/theme/coffeeinterview/images/icons/logo_circle.png" alt="">
+                    </a>
+                </div>
+                <div class="manu">
+                    <a href="./index.html">HOME</a>
+                    <a href="./interview.html">INTERVIEW</a>
+                    <a href="">BUSINESS</a>
+                    <a href="">STORE</a>
+                    <a href="./Shop.html">SHOP</a>
+                </div>
+    
+                <div class="login">
+                    <div class="login1">
+                        <a href="">로그인</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="banner">
+            <img width="100%" 
+            src="https://www.nestleprofessional.in/sites/default/files/2021-08/Roasted-Coffee-Beans.jpg" alt="">
+                        
+            <span class="text1">SHOP</span>
+                        
+        </div>
+    
+        <div class="body">
+    
+            <div class="message">
+
+                <p>
+                    인터뷰의 감각적인 커피가 주는
+                </p>
+                <p>
+                    최상의 맛과 향.
+                </p>
+                <p>
+                    이젠 집에서도 편하게 인터뷰 하세요!
+                </p>
+                
+            </div>
+
+            
+            <div class="card-container">
+
+                <div class="card">
+            
+                    <div>
+                        <a href="http://127.0.0.1:5500/Shop_1.html">
+                            <img width="100%"
+                            src="https://coffeeinterview.com/data/item/1635395394/thumb-image_1630628276978_1000_500x500.png"
+                            alt="">
+                        </a>
+                    </div>
+    
+                    <div>
+                        <a href="http://127.0.0.1:5500/Shop_1.html">그린레이디 1kg</a>
+                    </div>
+    
+                    <div>
+                        <p>[과일향,새콤,산미]</p>
+                        <p style="font-size: 20px; font-weight: bold;">38,000원</p>
+                    </div>
+                </div>
+
+                <div class="card">
+            
+                    <div>
+                        <a href="">
+                            <img width="100%"
+                            src="https://coffeeinterview.com/data/item/1635395697/thumb-image_1630474463113_1000_500x500.jpg"
+                            alt="">
+                        </a>
+                    </div>
+    
+                    <div>
+                        <a href="">우드맨 1kg</a>
+                    </div>
+    
+                    <div>
+                        <p>[고소,달콤,산미]</p>
+                        <p style="font-size: 20px; font-weight: bold;">36,000원</p>
+                    </div>
+                </div>
+
+                <div class="card"> 
+            
+                    <div>
+                        <a href="">
+                            <img width="100%"
+                            src="https://coffeeinterview.com/data/item/1635396381/thumb-67aA7Ims66eo_500x500.jpg"
+                            alt="">
+                        </a>
+                    </div>
+    
+                    <div>
+                        <a href="">부시맨 1kg</a>
+                    </div>
+    
+                    <div>
+                        <p>[다크 초콜렛,달콤,부드러움]</p>
+                        <p style="font-size: 20px; font-weight: bold;">35,000원</p>
+                    </div>
+                </div>
+
+                <div class="card">
+            
+                    <div>
+                        <a href="">
+                            <img width="100%"
+                            src="https://coffeeinterview.com/data/item/1635388114/thumb-image_1630893582248_1000_500x500.jpg"
+                            alt="">
+                        </a>
+                    </div>
+    
+                    <div>
+                        <a href="">샌드맨 1kg</a>
+                    </div>
+    
+                    <div>
+                        <p>[고소,달콤,바닐라향]</p>
+                        <p style="font-size: 20px; font-weight: bold;">34,000원</p>
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </div>
+
+        <div class="bottom">
+            <div class="footer">
+                <div style="width: 100%; height: 300px;">
+                    <div style="width: 1200px; height: 250px; ">
+                        <div class="logo1">
+                    <a href="./index.html">
+                        <img width="130px" height="100px" src="https://coffeeinterview.com/theme/coffeeinterview/images/icons/logo_circle.png" alt="">
+                    </a>
+                    <a href="">
+                        <img width="30px" height="20px" src="https://cdn-icons-png.freepik.com/512/3741/3741664.png" alt="">
+                    </a>
+                        </div>
+                        <div class="asd1">
+                            <h3>● 주식회사 인터뷰 | 권순창</h3>
+                            <h3>● 대전광역시 서구 계룡로 199, 501호</h3>
+                            <h3>● 커피 및 베이커리 문의 : 1544-0933</h3>
+                            <h3>● 스테이 문의 : 010-6836-4678</h3>
+                            <h3>● 383-81-01897 | 2020-대전서구-2249</h3>
+                        </div>
+                        <div class="asd2">
+                            <h3>● 사업자정보확인</h3>
+                            <h3>● 개인정보처리방침</h3>
+                            <h3>● 이용약관</h3>
+                            <h3>● coffeeinterview@naver.com</h3>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+</body>
+</html>
